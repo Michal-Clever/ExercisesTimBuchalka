@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class MinutesToYearsDaysCalculator {
     public static void printYearsAndDays(long minutes){
         if(minutes < 0){

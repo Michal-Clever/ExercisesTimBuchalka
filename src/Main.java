@@ -1,7 +1,9 @@
+import sekcja5.*;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Exercises 1 MegaBytesConverter :");
+        System.out.println("Exercises 1 sekcja5.MegaBytesConverter :");
         //Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with
         //the name kiloBytes.
         //The method should not return anything (void) and it needs to calculate the megabytes and
@@ -18,7 +20,7 @@ public class Main {
         System.out.println("**********");
 
 
-        System.out.println("Exercises 2 BarkingDog :");
+        System.out.println("Exercises 2 sekcja5.BarkingDog :");
         //We have a dog that likes to bark. We need to wake up if the dog is barking at night!
         //Write a method bark that has 2 parameters.
         //1st parameter should be of type boolean and be named barking it represents if our dog is curently
@@ -57,7 +59,7 @@ public class Main {
         System.out.println(LeapYear.isLeapYear(2017));
         System.out.println("**********");
 
-        System.out.println("Exercises 4 DecimalComperator :");
+        System.out.println("Exercises 4 sekcja5.DecimalComperator :");
         //Write a method areEqualByThreeDecimalPlaces with two parameters of type double.
         //The method should return boolean and it needs to return true if two double numbers
         //are the same up to three decimal places. Otherwise return false.
@@ -73,7 +75,7 @@ public class Main {
         System.out.println(DecimalComperator.areEqualByThreeDecimalPlaces(3.0,3.0));
         System.out.println("**********");
 
-        System.out.println("Exercises 5 EqualSumChecker :");
+        System.out.println("Exercises 5 sekcja5.EqualSumChecker :");
         //Write a method hasEqualSum with 3 parameters of type int.
         //The method should return boolean and it needs to return true if sum of rst
         //and second
@@ -87,7 +89,7 @@ public class Main {
         System.out.println( EqualSumChecker.hasEqualSum(1,-1,0));
         System.out.println("**********");
 
-        System.out.println("Exercises 6 TeenNumberChecker :");
+        System.out.println("Exercises 6 sekcja5.TeenNumberChecker :");
         //We'll say that a number is "teen" if it is in the range 13 -19 (inclusive).
         //Write a method hasTeen with 3 parameters of type int.
         //The method should return boolean and it needs to return true if one of parameters is
@@ -102,7 +104,7 @@ public class Main {
         System.out.println(TeenNumberChecker.hasTeen(22,23,24));
         System.out.println("**********");
 
-        System.out.println("Exercises 7 AreaCalculator:");
+        System.out.println("Exercises 7 sekcja5.AreaCalculator:");
         //Write a method named area with one double parameter named radius.
         //The method needs to return a double value that represents the area of a circle.
         //If the parameter radius is negative then return -1.0 to represent an invalid value. 
@@ -123,7 +125,7 @@ public class Main {
         System.out.println(AreaCalculator.area(-1, 4));
         System.out.println("**********");
 
-        System.out.println("Exercises 8 MinutesToYearsDaysCalculator :");
+        System.out.println("Exercises 8 sekcja5.MinutesToYearsDaysCalculator :");
         //The method should not return anything (void) and it needs to calculate the years and days
         //from the minutes parameter.
         //If parameter is less than 0, print text "Invalid Value".
@@ -165,7 +167,7 @@ public class Main {
         EqualityPrinter.printEqual(1, 2, 3);
         System.out.println("**********");
 
-        System.out.println("Exercises 10 PlayingCat :");
+        System.out.println("Exercises 10 sekcja5.PlayingCat :");
         //The cats spend most of the day playing. In particular, they play if the temperature is
         //between 25 and 35 (inclusive). Unless it is summer, then the upper limit is 45 (inclusive)
         //instead of 35.

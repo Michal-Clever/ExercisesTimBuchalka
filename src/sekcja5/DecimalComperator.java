@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class DecimalComperator {
     public static boolean areEqualByThreeDecimalPlaces(double numberFirst, double numberSecond) {
         double numberFirstA = (int) (numberFirst * 1000);

@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class TeenNumberChecker {
     public static boolean hasTeen(int numberA, int numberB, int numberC) {
 

@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class AreaCalculator {
     public static final double PI = 3.14159;
     public static double area(double radius) {

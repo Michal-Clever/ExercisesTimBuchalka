@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class BarkingDog {
     public static boolean bark(boolean barking, int hourOfDay) {
         if (barking == true) {

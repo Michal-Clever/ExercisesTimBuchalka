@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class EqualityPrinter {
     public static void printEqual(int first, int second, int third) {
         if(first < 0 || second < 0 || third < 0) {

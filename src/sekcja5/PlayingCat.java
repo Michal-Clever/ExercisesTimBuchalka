@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class PlayingCat {
 
     public static boolean isCatPlaying(boolean summer, int temperature) {

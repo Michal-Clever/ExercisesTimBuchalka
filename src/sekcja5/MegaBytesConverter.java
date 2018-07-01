@@ -1,3 +1,5 @@
+package sekcja5;
+
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         int megaBytes = (kiloBytes / 1024);
