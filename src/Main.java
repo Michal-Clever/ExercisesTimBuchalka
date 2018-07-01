@@ -2,7 +2,7 @@ import sekcja5.*;
 
 public class Main {
     public static void main(String[] args) {
-
+//SEKCJA 5
         System.out.println("Exercises 1 sekcja5.MegaBytesConverter :");
         //Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with
         //the name kiloBytes.
@@ -185,5 +185,10 @@ public class Main {
         System.out.println(PlayingCat.isCatPlaying(false, 36));
         System.out.println(PlayingCat.isCatPlaying(false, 35));
         System.out.println("**********");
+
+ //SEKCJA 6
+        
+
+
     }
 }
