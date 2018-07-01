@@ -5,7 +5,7 @@ public class Main {
         //SEKCJA 6
         System.out.println("Exercises 11 :");
 
-
+        System.out.println("push");
         System.out.println("**********");
     }
 }
