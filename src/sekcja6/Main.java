@@ -6,6 +6,8 @@ public class Main {
         System.out.println("Exercises 11 :");
 
         System.out.println("push");
+        System.out.println("push");
+        System.out.println("push");
         System.out.println("**********");
     }
 }
