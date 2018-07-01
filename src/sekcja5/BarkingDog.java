@@ -1,4 +1,4 @@
-package sekcja5;
+package sekcja5ExpressionsStatementsCodeBloksMethodsAndMore;
 
 public class BarkingDog {
     public static boolean bark(boolean barking, int hourOfDay) {

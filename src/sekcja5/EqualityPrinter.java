@@ -1,4 +1,4 @@
-package sekcja5;
+package sekcja5ExpressionsStatementsCodeBloksMethodsAndMore;
 
 public class EqualityPrinter {
     public static void printEqual(int first, int second, int third) {

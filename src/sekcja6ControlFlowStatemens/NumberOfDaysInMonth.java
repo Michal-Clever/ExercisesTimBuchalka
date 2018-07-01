@@ -1,4 +1,4 @@
-package sekcja6;
+package sekcja6ControlFlowStatemens;
 
 public class NumberOfDaysInMonth {
     public static boolean isLeapYear(int year) {

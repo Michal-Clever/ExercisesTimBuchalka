@@ -1,4 +1,4 @@
-package sekcja6;
+package sekcja6ControlFlowStatemens;
 
 public class NumberInWord {
     public static void printNumberInWord(int number) {

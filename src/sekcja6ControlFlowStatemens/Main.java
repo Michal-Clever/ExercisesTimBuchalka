@@ -1,4 +1,4 @@
-package sekcja6;
+package sekcja6ControlFlowStatemens;
 
 public class Main {
     public static void main(String[] args) {

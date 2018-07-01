@@ -1,4 +1,4 @@
-package sekcja5;
+package sekcja5ExpressionsStatementsCodeBloksMethodsAndMore;
 
 public class DecimalComperator {
     public static boolean areEqualByThreeDecimalPlaces(double numberFirst, double numberSecond) {

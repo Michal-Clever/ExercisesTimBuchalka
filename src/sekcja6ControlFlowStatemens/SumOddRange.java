@@ -1,4 +1,4 @@
-package sekcja6;
+package sekcja6ControlFlowStatemens;
 
 public class SumOddRange {
     public static boolean isOdd(int number) {
