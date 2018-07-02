@@ -161,5 +161,16 @@ public class Main {
         System.out.println(EvenDigitsSum.getEvenDigitSum(252));
         System.out.println(EvenDigitsSum.getEvenDigitSum(-22));
         System.out.println("**********");
+
+        System.out.println("Exercises 17 SharedDigit :");
+        //Write a method named hasSharedDigit with two parameters of type int. 
+        //Each number should be within the range of 10 (inclusive) - 99 (inclusive). If one of the
+        //numbers is not within the range, the method should return false.
+        //The method should return true if there is a digit that appears in both numbers, such
+        //as 2 in 12 and 23; otherwise, the method should return false.
+        System.out.println(SharedDigit.hasSharedDigit(12,23));
+        System.out.println(SharedDigit.hasSharedDigit(9,99));
+        System.out.println(SharedDigit.hasSharedDigit(15,55));
+        System.out.println("**********");
     }
 }
