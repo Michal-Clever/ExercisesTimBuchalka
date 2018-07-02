@@ -152,5 +152,12 @@ public class Main {
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(-10));
         System.out.println("**********");
+
+        System.out.println("Exercises 16 EvenDigitSum :");
+        //Write a method named getEvenDigitSum with one parameter of type int called number.  The
+        //method should return the sum of the even digits within the number.  If the number is
+        //negative, the method should return -1 to indicate an invalid value
+
+        System.out.println("**********");
     }
 }
