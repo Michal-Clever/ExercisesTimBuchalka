@@ -56,11 +56,11 @@ public class Main {
         //NOTE: Methods isLeapYear and getDaysInMonth need to be public static like we have
         //been doing so far in the course.
         //NOTE: Do not add a main method to solution code.
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1,2020));
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2,2020));
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2,2018));
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(-1,2020));
-        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1,-2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, 2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2018));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(-1, 2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, -2020));
         System.out.println("**********");
 
         System.out.println("Exercises 13 SumOddRange :");
@@ -88,19 +88,19 @@ public class Main {
         //as public static like we have been doing so far
         //in the course.
         //NOTE: Do not add a  main method to solution code
-        System.out.println(  SumOddRange.isOdd(14));
-        System.out.println(  SumOddRange.isOdd(-14));
-        System.out.println(  SumOddRange.isOdd(13));
+        System.out.println(SumOddRange.isOdd(14));
+        System.out.println(SumOddRange.isOdd(-14));
+        System.out.println(SumOddRange.isOdd(13));
 
-        System.out.println(SumOddRange.sumOdd(1,100));
+        System.out.println(SumOddRange.sumOdd(1, 100));
         System.out.println("**********************");
-        System.out.println(SumOddRange.sumOdd(-1,100));
+        System.out.println(SumOddRange.sumOdd(-1, 100));
         System.out.println("**********************");
-        System.out.println(SumOddRange.sumOdd(100,100));
+        System.out.println(SumOddRange.sumOdd(100, 100));
         System.out.println("**********************");
-        System.out.println(SumOddRange.sumOdd(100,-100));
+        System.out.println(SumOddRange.sumOdd(100, -100));
         System.out.println("**********************");
-        System.out.println(SumOddRange.sumOdd(100,1000));
+        System.out.println(SumOddRange.sumOdd(100, 1000));
         System.out.println("**********");
 
         System.out.println("Exercises 14 NumberPalindrome :");
@@ -191,9 +191,9 @@ public class Main {
         //hasSharedDigit(9, 99); should return false since 9 is not within the range of 10-99
         //hasSharedDigit(15, 55); should return true since the digit 5 appears in both
         //numbers
-        System.out.println(SharedDigit.hasSharedDigit(12,23));
-        System.out.println(SharedDigit.hasSharedDigit(9,99));
-        System.out.println(SharedDigit.hasSharedDigit(15,55));
+        System.out.println(SharedDigit.hasSharedDigit(12, 23));
+        System.out.println(SharedDigit.hasSharedDigit(9, 99));
+        System.out.println(SharedDigit.hasSharedDigit(15, 55));
         System.out.println("**********");
 
         System.out.println("Exercises 18 LastDigitChecker :");
@@ -209,9 +209,40 @@ public class Main {
         //numbers 32 and 42
         //hasSameLastDigit (9, 99, 999); should return false since 9 is not within the range of
         //10-1000
-        System.out.println(LastDigitChecker.hasSameLastDigit(41,22,71));
-        System.out.println(LastDigitChecker.hasSameLastDigit(23,32,42));
-        System.out.println(LastDigitChecker.hasSameLastDigit(9,99,999));
+        System.out.println(LastDigitChecker.hasSameLastDigit(41, 22, 71));
+        System.out.println(LastDigitChecker.hasSameLastDigit(23, 32, 42));
+        System.out.println(LastDigitChecker.hasSameLastDigit(9, 99, 999));
+        System.out.println("**********");
+
+        System.out.println("Exercises 19 Greatest Common Divisor :");
+        // Write a method named getGreatestCommonDivisor with two parameters of
+        // type int named rst
+        //and second. 
+        //If one of the parameters is < 10, the method should return -1 to indicate an invalid
+        //value.
+        //The method should return the greatest common divisor of the two numbers (int).
+        //The greatest common divisor is the largest positive integer that can fully divide each of
+        //the integers (i.e. without leaving a remainder).
+        //                For example 12 and 30:
+        //                12 can be divided by 1, 2, 3, 4, 6, 12
+        //                30 can be divided by 1, 2, 3, 5, 6, 10, 15, 30
+        //                The greatest common divisor is 6 since both 12 and 30 can be divided by 6, and there is no
+        //                resulting remainder
+        //                EXAMPLE INPUT/OUTPUT:
+        //                getGreatestCommonDivisor(25, 15); should return 5 since both can be divided by 5
+        //                without a remainder
+        //                getGreatestCommonDivisor(12, 30); should return 6 since both can be divided by 6
+        //                without a remainder
+        //                getGreatestCommonDivisor(9, 18); should return -1 since the rst
+        //                parameter is <
+        //                10
+        //                getGreatestCommonDivisor(81, 153); should return 9 since both can be divided by
+        //                9 without a remainder
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(25, 15));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(12, 30));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(9, 18));
+        System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81, 153));
+
         System.out.println("**********");
     }
 }
