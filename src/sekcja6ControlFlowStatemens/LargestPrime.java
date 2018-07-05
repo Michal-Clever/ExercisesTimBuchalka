@@ -13,7 +13,6 @@ public class LargestPrime {
                     if (i % k == 0) {
                         isPrime = false;
                     }
-
                 }
                 if (isPrime && i > largestPrime) {
                     largestPrime = i;
