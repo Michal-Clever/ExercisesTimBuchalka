@@ -345,5 +345,10 @@ public class Main {
         System.out.println(" ");
         NumberToWords.numberToWords(-12);
         System.out.println("**********");
+
+        System.out.println("Exercises 23 FlourPackProblem :");
+
+
+        System.out.println("**********");
     }
 }
