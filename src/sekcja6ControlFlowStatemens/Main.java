@@ -287,5 +287,9 @@ public class Main {
         System.out.println(PerfectNumber.isPerfectNumber(5));
         System.out.println(PerfectNumber.isPerfectNumber(-1));
         System.out.println("**********");
+
+        System.out.println("Exercises 22 NumberToWords :");
+        NumberToWords.numberToWords(-5);
+        System.out.println("**********");
     }
 }
