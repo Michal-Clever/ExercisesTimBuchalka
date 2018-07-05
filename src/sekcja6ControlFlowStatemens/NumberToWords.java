@@ -13,34 +13,34 @@ public class NumberToWords {
             number = number / 10;
             switch (lastDigit) {
                 case 0:
-                    System.out.println(stringArray[0]);
+                    System.out.print(stringArray[0]);
                     break;
                 case 1:
-                    System.out.println(stringArray[1]);
+                    System.out.print(stringArray[1]);
                     break;
                 case 2:
-                    System.out.println(stringArray[2]);
+                    System.out.print(stringArray[2]);
                     break;
                 case 3:
-                    System.out.println(stringArray[3]);
+                    System.out.print(stringArray[3]);
                     break;
                 case 4:
-                    System.out.println(stringArray[4]);
+                    System.out.print(stringArray[4]);
                     break;
                 case 5:
-                    System.out.println(stringArray[5]);
+                    System.out.print(stringArray[5]);
                     break;
                 case 6:
-                    System.out.println(stringArray[6]);
+                    System.out.print(stringArray[6]);
                     break;
                 case 7:
-                    System.out.println(stringArray[7]);
+                    System.out.print(stringArray[7]);
                     break;
                 case 8:
-                    System.out.println(stringArray[8]);
+                    System.out.print(stringArray[8]);
                     break;
                 case 9:
-                    System.out.println(stringArray[9]);
+                    System.out.print(stringArray[9]);
                     break;
             }
         }
