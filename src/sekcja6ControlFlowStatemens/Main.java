@@ -289,6 +289,30 @@ public class Main {
         System.out.println("**********");
 
         System.out.println("Exercises 22 NumberToWords :");
+        //Write a method called numberToWords with one int parameter named number.
+        //The method needs to print out the passed number using words for the digits.
+        //If the number is negative then print "Invalid Value".
+        //To print the number in words use the following steps
+        //1. Extract last digit of given number using the remainder operator. 
+        //2. Switch the value of digit found above. There are 10 possible values of digits those
+        //being 0, 1, 2, 3, 4, 5, 6, 7, 8 ,9. Print the corresponding word for each digit.  e.g.  print
+        //"Zero" if digit is 0, "One" if digit is 1, and so on.
+        //3. Remove the last digit from the number.
+        //4. Repeat step 2 through 4 until the number is 0.
+        //The logic above is correct but the words will be printed in reverse order. For example if the
+        //number is 234 the logic above will produce the output "Four Three Two" instead of "Two
+        //Three Four". To overcome this problem write a second method called reverse.
+        //The reverse method has one int parameter and returns the reversed number (int). For
+        //example if the number passed is 234 then the reversed number returned would be 432.
+        //The reverse method should also reverse negative numbers. Use the reverse method in
+        //the numberToWords method then print the words in the correct order.
+        //For the number 100 the reverse number is 001. The logic above for the
+        //method numberToWords will print "One" but that is incorrect it should print "One Zero
+        //Zero".
+        //To solve the problem with leading zeroes write a third method getDigitCount. 
+        //The getDigitCount method has one int parameter number and returns the count of digits
+        //in that number. If the number is negative then return -1 to indicate an invalid value.
+        //
         System.out.println(NumberToWords.getDigitCount(0));
         System.out.println(NumberToWords.getDigitCount(123));
         System.out.println(NumberToWords.getDigitCount(-12));
