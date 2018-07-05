@@ -312,7 +312,8 @@ public class Main {
         //To solve the problem with leading zeroes write a third method getDigitCount. 
         //The getDigitCount method has one int parameter number and returns the count of digits
         //in that number. If the number is negative then return -1 to indicate an invalid value.
-        //
+        //If number has the value of 100 then the method getDigitCount needs to return 3 since
+        //the number 100 has 3 digits 1, 0, 0.
         //Example Input/Output - getDigitCount method
         //getDigitCount(0); should return 1 since there is only 1 digit.
         //getDigitCount(123); should return 3.
@@ -337,11 +338,11 @@ public class Main {
         System.out.println(NumberToWords.reverse(1234));
         System.out.println(NumberToWords.reverse(100));
         NumberToWords.numberToWords(123);
-        System.out.println("");
+        System.out.println(" ");
         NumberToWords.numberToWords(1010);
-        System.out.println("");
+        System.out.println(" ");
         NumberToWords.numberToWords(1000);
-        System.out.println("");
+        System.out.println(" ");
         NumberToWords.numberToWords(-12);
         System.out.println("**********");
     }
