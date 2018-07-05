@@ -12,10 +12,10 @@ public class FlourPacker {
         } else {
             covered = bigCount * 5;
         }
-        System.out.println(covered);
+        //System.out.println(covered);
         int remaining = goal - covered;
         if (smallCount >= remaining) {
-            System.out.println(remaining);
+           // System.out.println(remaining);
             return true;
         } else
             return false;
