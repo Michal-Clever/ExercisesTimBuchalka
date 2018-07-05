@@ -6,7 +6,7 @@ public class NumberToWords {
             System.out.println("Invalid Value");
         }
         int digits = getDigitCount(number);
-        String[] stringArray = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+        String[] stringArray = {"Zero ", "One ", "Two ", "Three ", "Four ", "Five ", "Six ", "Seven ", "Eight ", "Nine "};
         number = reverse(number);
         for (int i = 1; i <= digits; i++) {
             int lastDigit = number % 10;

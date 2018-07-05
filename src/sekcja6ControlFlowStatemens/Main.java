@@ -298,8 +298,11 @@ public class Main {
         System.out.println(NumberToWords.reverse(1234));
         System.out.println(NumberToWords.reverse(100));
         NumberToWords.numberToWords(123);
+        System.out.println("");
         NumberToWords.numberToWords(1010);
+        System.out.println("");
         NumberToWords.numberToWords(1000);
+        System.out.println("");
         NumberToWords.numberToWords(-12);
         System.out.println("**********");
     }
