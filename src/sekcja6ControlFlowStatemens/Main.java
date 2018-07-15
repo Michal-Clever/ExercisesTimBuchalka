@@ -405,5 +405,7 @@ public class Main {
         DiagonalStar.printSquareStar(5);
         DiagonalStar.printSquareStar(8);
         System.out.println("**********");
+
+        
     }
 }
