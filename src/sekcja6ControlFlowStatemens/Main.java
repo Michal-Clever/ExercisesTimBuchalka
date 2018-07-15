@@ -406,6 +406,9 @@ public class Main {
         DiagonalStar.printSquareStar(8);
         System.out.println("**********");
 
-        
+        System.out.println("Exercises 25 :");
+       
+        System.out.println("**********");
+
     }
 }
