@@ -10,8 +10,12 @@ public class Main {
 
 
 
+
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
         MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
         MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+
+        boolean number=TeenNumberChecker.isTeen(13);
+        System.out.println(number);
     }
 }
