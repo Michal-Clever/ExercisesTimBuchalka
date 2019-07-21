@@ -28,5 +28,19 @@ public class Main {
        MinutesToYearsAndDaysCalculator.printYearsAndDays(561600);
        MinutesToYearsAndDaysCalculator.printYearsAndDays(0);
 
+       EqualityPronter.printEqual(1,1,1);
+       EqualityPronter.printEqual(1,1,2);
+       EqualityPronter.printEqual(-1,-1,-1);
+       EqualityPronter.printEqual(1,2,3);
+
+       boolean token = PlayingCat.isCatPlaying(true,10);
+        System.out.println(token);
+        token = PlayingCat.isCatPlaying(false,36);
+        System.out.println(token);
+        token = PlayingCat.isCatPlaying(false,35);
+        System.out.println(token);
+
+
+
     }
 }
