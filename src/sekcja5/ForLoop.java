@@ -13,11 +13,11 @@ public class ForLoop {
         System.out.println("************");
 
         int count = 0;
-        for (int i = 10; i < 50; i++) {
+        for (int i = 2; i < 50; i++) {
             if (isPrime(i)) {
                 count++;
                 System.out.println("Number " + i + " is a prime number");
-                if (count == 3) {
+                if (count == 10) {
                     System.out.println("Exiting for loop");
                     break;
                 }
