@@ -10,13 +10,13 @@ public class Sum3And5Challeng {
             if ((i % 3 == 0) && (i % 5 == 0)) {
                 count++;
                 sum += i;
-                System.out.println("Found number = "+i);
+                System.out.println("Found number = " + i);
             }
-            if (count == 3) {
+            if (count == 5) {
                 break;
             }
         }
-        System.out.println(sum);
+        System.out.println("Sum " + sum);
     }
 
 }

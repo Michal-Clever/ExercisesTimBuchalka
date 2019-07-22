@@ -12,11 +12,24 @@ public class Main {
         NumberOfDaysInMonth.isLeapYear(2017);
         NumberOfDaysInMonth.isLeapYear(2000);
 
-        NumberOfDaysInMonth.getDaysInMonth(1,2020);
-        NumberOfDaysInMonth.getDaysInMonth(2,2020);
-        NumberOfDaysInMonth.getDaysInMonth(2,2018);
-        NumberOfDaysInMonth.getDaysInMonth(-1,2020);
-        NumberOfDaysInMonth.getDaysInMonth(1,-2020);
+        NumberOfDaysInMonth.getDaysInMonth(1, 2020);
+        NumberOfDaysInMonth.getDaysInMonth(2, 2020);
+        NumberOfDaysInMonth.getDaysInMonth(2, 2018);
+        NumberOfDaysInMonth.getDaysInMonth(-1, 2020);
+        NumberOfDaysInMonth.getDaysInMonth(1, -2020);
+
+        int score = SumOddRange.sumOdd(1, 100);
+        System.out.println(score);
+        score = SumOddRange.sumOdd(-1, 100);
+        System.out.println(score);
+        score = SumOddRange.sumOdd(100, 100);
+        System.out.println(score);
+        score = SumOddRange.sumOdd(13, 13);
+        System.out.println(score);
+        score = SumOddRange.sumOdd(100, -100);
+        System.out.println(score);
+        score = SumOddRange.sumOdd(100, 1000);
+        System.out.println(score);
 
     }
 }
