@@ -20,14 +20,39 @@ public class While {
 //        } while (count != 6);
 
 
+//        int number = 4;
+//        int finishNumber = 20;
+//
+//        while (number <= finishNumber) {
+//            number++;
+//            if (!isEvenNumber(number)) {
+//                continue;
+//
+//            }
+//            System.out.println(" Even number = " + number);
+//
+//            }
+//        }
+
+
         int number = 4;
         int finishNumber = 20;
+        int eventNumbersFound = 0;
 
-        while (number <= finishNumber){
-            System.out.println("Number = " + number);
+        while (number <= finishNumber) {
             number++;
+            if (!isEvenNumber(number)) {
+                continue;
 
+            }
+            System.out.println("Even number = " + number);
+            eventNumbersFound++;
+            if (eventNumbersFound >= 5) {
+                break;
+            }
         }
+        System.out.println("Total event number found = " + eventNumbersFound);
+
 
     }
 
