@@ -33,5 +33,12 @@ public class Main {
 
 
         NumberPalindrome.isPalindrome(1230321);
+
+        System.out.println("**********");
+        FirstAndLastDigitSum.sumFirstAndLastDigit(252);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(257);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(0);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(5);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
     }
 }
