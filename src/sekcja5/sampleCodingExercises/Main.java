@@ -31,5 +31,7 @@ public class Main {
         score = SumOddRange.sumOdd(100, 1000);
         System.out.println(score);
 
+
+        NumberPalindrome.isPalindrome(1230321);
     }
 }
