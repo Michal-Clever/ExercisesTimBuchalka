@@ -42,6 +42,17 @@ public class Main {
         FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
 
         System.out.println("*************");
+        int evenDigitSum = EvenDigitSum.getEvenDigitSum(123456789);
+        System.out.println(evenDigitSum);
+        evenDigitSum = EvenDigitSum.getEvenDigitSum(252);
+        System.out.println(evenDigitSum);
+        evenDigitSum = EvenDigitSum.getEvenDigitSum(-22);
+        System.out.println(evenDigitSum);
+        System.out.println("*********");
+        boolean shareDigit = SharedDigit.hasSharedDigit(19,99);
+        System.out.println(shareDigit);
+
+
 
     }
 }
