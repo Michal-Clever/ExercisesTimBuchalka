@@ -48,10 +48,18 @@ public class Main {
         System.out.println(evenDigitSum);
         evenDigitSum = EvenDigitSum.getEvenDigitSum(-22);
         System.out.println(evenDigitSum);
+
         System.out.println("*********");
         boolean shareDigit = SharedDigit.hasSharedDigit(19,99);
         System.out.println(shareDigit);
 
+        System.out.println("*************");
+        boolean lastDigitChecker = LastDigitChecker.hasSameLastDigit(41,22,71);
+        System.out.println(lastDigitChecker);
+        lastDigitChecker = LastDigitChecker.hasSameLastDigit(23,32,42);
+        System.out.println(lastDigitChecker);
+        lastDigitChecker = LastDigitChecker.hasSameLastDigit(9,99,999);
+        System.out.println(lastDigitChecker);
 
 
     }

@@ -3,7 +3,7 @@ package sekcja5.sampleCodingExercises;
 public class LastDigitChecker {
 
     public static boolean isValid(int number) {
-        if (number < 10 || number > 99) {
+        if (number < 10 || number > 1000) {
             return false;
         }
         return true;
@@ -11,7 +11,7 @@ public class LastDigitChecker {
 
 
     public static boolean hasSameLastDigit(int num1, int num2, int num3) {
-        if ((isValid(num1) != true) && (isValid(num2) != true) && (isValid(num3) != true)) {
+        if ((isValid(num1) == true) && (isValid(num2) == true) && (isValid(num3) == true)) {
             int num1Last = num1 % 10;
             int num2Last = num2 % 10;
             int num3Last = num3 % 10;
