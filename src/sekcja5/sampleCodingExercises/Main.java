@@ -40,5 +40,8 @@ public class Main {
         FirstAndLastDigitSum.sumFirstAndLastDigit(0);
         FirstAndLastDigitSum.sumFirstAndLastDigit(5);
         FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
+
+        System.out.println("*************");
+
     }
 }
