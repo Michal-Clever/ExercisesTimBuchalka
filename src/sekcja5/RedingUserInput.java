@@ -16,8 +16,11 @@ public class RedingUserInput {
         String name = scanner.nextLine();
         int age = 2019 - yearOfBirth;
 
-        System.out.println("Your name is " + name + " , and you are " + age + " year old.");
-
+        if (age>=0 && age <=100) {
+            System.out.println("Your name is " + name + " , and you are " + age + " year old.");
+        }else{
+            System.out.println("Invalid year of birth");
+        }
         scanner.close();
 
 
