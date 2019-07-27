@@ -50,16 +50,26 @@ public class Main {
         System.out.println(evenDigitSum);
 
         System.out.println("*********");
-        boolean shareDigit = SharedDigit.hasSharedDigit(19,99);
+        boolean shareDigit = SharedDigit.hasSharedDigit(19, 99);
         System.out.println(shareDigit);
 
         System.out.println("*************");
-        boolean lastDigitChecker = LastDigitChecker.hasSameLastDigit(41,22,71);
+        boolean lastDigitChecker = LastDigitChecker.hasSameLastDigit(41, 22, 71);
         System.out.println(lastDigitChecker);
-        lastDigitChecker = LastDigitChecker.hasSameLastDigit(23,32,42);
+        lastDigitChecker = LastDigitChecker.hasSameLastDigit(23, 32, 42);
         System.out.println(lastDigitChecker);
-        lastDigitChecker = LastDigitChecker.hasSameLastDigit(9,99,999);
+        lastDigitChecker = LastDigitChecker.hasSameLastDigit(9, 99, 999);
         System.out.println(lastDigitChecker);
+
+        System.out.println("**********");
+        int max = GreatesCommonDivisior.getGreatestCommonDivisor(25, 15);
+        System.out.println(max);
+        max = GreatesCommonDivisior.getGreatestCommonDivisor(12,30);
+        System.out.println(max);
+        max = GreatesCommonDivisior.getGreatestCommonDivisor(9,18);
+        System.out.println(max);
+        max = GreatesCommonDivisior.getGreatestCommonDivisor(81,153);
+        System.out.println(max);
 
 
     }
