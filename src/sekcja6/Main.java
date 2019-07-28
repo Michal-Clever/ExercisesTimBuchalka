@@ -12,6 +12,7 @@ public class Main {
         calculator.setSecondNumber(0);
         System.out.println("multiply = " + calculator.getMultiplicationResult());
         System.out.println("divide = " + calculator.getDivisionResult());
+        System.out.println("*********");
 
     }
 }
