@@ -14,5 +14,18 @@ public class Main {
         System.out.println("divide = " + calculator.getDivisionResult());
         System.out.println("*********");
 
+        Account bobsAccount = new Account("12345",0.0,"Bob Brown",
+                "myemail@gmail.com","(087) 123-4567");
+
+        System.out.println(bobsAccount.getNumber());
+        System.out.println(bobsAccount.getBalance());
+
+        bobsAccount.withdrawal(100);
+
+        bobsAccount.deposit(50.0);
+        bobsAccount.withdrawal(100.0);
+
+        bobsAccount.deposit(51.0);
+        bobsAccount.withdrawal(100.0);
     }
 }
