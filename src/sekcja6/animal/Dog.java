@@ -2,6 +2,7 @@ package sekcja6.animal;
 
 public class Dog extends Animal {
 
+
     private int eyes;
     private int legs;
     private int tail;
