@@ -13,6 +13,7 @@ public class Outlander extends Car {
         int newVelocity = getCurrentVelocity() + rate;
         if (newVelocity == 0) {
             stop();
+            changeGear(1);
         } else if (newVelocity > 0 && newVelocity <= 10) {
             changeGear(1);
         } else if (newVelocity > 10 && newVelocity <= 20) {
@@ -22,5 +23,11 @@ public class Outlander extends Car {
         } else {
             changeGear(4);
         }
+        if (newVelocity > 0) {
+            changVelocity(newVelocity, getCurrentDirection());
+        }
+
     }
+
+
 }
