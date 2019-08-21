@@ -12,4 +12,13 @@ public class Cuboid extends Rectangle {
             this.height = height;
         }
     }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getVolume() {
+        return super.getArea() * height;
+    }
+
 }
