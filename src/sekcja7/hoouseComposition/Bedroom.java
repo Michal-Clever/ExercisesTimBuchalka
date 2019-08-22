@@ -1,4 +1,4 @@
-package sekcja7.hoouse;
+package sekcja7.hoouseComposition;
 
 public class Bedroom {
     private String name;
