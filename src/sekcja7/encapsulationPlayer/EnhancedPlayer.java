@@ -1,4 +1,4 @@
-package sekcja7.playerEncapsulation;
+package sekcja7.encapsulationPlayer;
 
 public class EnhancedPlayer {
     private String name;

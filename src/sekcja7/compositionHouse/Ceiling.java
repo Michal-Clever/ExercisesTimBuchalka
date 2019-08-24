@@ -1,4 +1,4 @@
-package sekcja7.hoouseComposition;
+package sekcja7.compositionHouse;
 
 public class Ceiling {
     private int height;

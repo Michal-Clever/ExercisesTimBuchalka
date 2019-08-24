@@ -1,4 +1,4 @@
-package sekcja7.printer;
+package sekcja7.encapsulationPrinter;
 
 public class Printer {
     private int tonerLevel;

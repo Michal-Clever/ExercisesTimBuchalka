@@ -1,4 +1,4 @@
-package sekcja7.polymorphism;
+package sekcja7.polymorphismMove;
 
 class Movie {
     private String name;

@@ -1,4 +1,4 @@
-package sekcja7.hoouseComposition;
+package sekcja7.compositionHouse;
 
 public class Main {
     public static void main(String[] args) {
