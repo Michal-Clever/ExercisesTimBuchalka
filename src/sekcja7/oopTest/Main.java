@@ -12,7 +12,9 @@ public class Main {
         System.out.println("Total Burger price is "+ hamburger.itemizeHamburger());
 
         HealthyBurger healthyBurger = new HealthyBurger("Bacone", 5.67);
-        healthyBurger.itemizeHamburger();
+        healthyBurger.addHamburgerAddition1("Egg",5.43);
+        healthyBurger.addHealthAddition1("Lentils",3.41);
+        System.out.println("Total Haalthy Burger price is " + healthyBurger.itemizeHamburger());
 
     }
 }
