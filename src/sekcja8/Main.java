@@ -64,7 +64,24 @@ public class Main {
         scanner.nextLine();
         System.out.print("Enter replacement item: ");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryIteam(itemNo - 1,newItem);
+        groceryList.modifyGroceryIteam(itemNo - 1, newItem);
+    }
+
+    public static void removeItem() {
+        System.out.print("Enter item number: ");
+        int itemNo = scanner.nextInt();
+        scanner.nextLine();
+        groceryList.removeGroceryItem(itemNo);
+    }
+
+    public static void serchForItem() {
+        System.out.println("Item to search for: ");
+        String searchItem = scanner.nextLine();
+        if (groceryList.findItem(searchItem) != null) {
+            System.out.println("Found" + searchItem + " in our grocery list");
+        } else {
+            System.out.println(searchItem + " is not in the shopping list");
+        }
     }
 
 
