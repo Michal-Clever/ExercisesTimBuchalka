@@ -10,7 +10,11 @@ public class GroceryList {
 
     private ArrayList<String> groceryList = new ArrayList<String>();
 
-    public void addGroceryIteam(String item) {
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
+    public void addGroceryItem(String item) {
         groceryList.add(item);
     }
 
@@ -21,7 +25,7 @@ public class GroceryList {
         }
     }
 
-    public void modifyGroceryItem(String currentItem ,String newItem) {
+    public void modifyGroceryItem(String currentItem, String newItem) {
         int position = findItem(currentItem);
         if (position >= 0) {
             modifyGroceryItem(position, newItem);
@@ -44,8 +48,16 @@ public class GroceryList {
         groceryList.remove(position);
     }
 
-    public int findItem(String searchItem)   {
+    private int findItem(String searchItem) {
         return groceryList.indexOf(searchItem);
+    }
+
+    public boolean onFile(String searchItem) {
+        int position = findItem(searchItem);
+        if (position >= 0) {
+            return true;
+        }
+        return false;
     }
 
 

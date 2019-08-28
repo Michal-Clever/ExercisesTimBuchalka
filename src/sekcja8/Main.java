@@ -1,5 +1,6 @@
 package sekcja8;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -33,9 +34,12 @@ public class Main {
                     removeItem();
                     break;
                 case 5:
-                    serchForItem();
+                    searchForItem();
                     break;
                 case 6:
+                    procesArrayList();
+                    break;
+                case 7:
                     quit = true;
                     break;
             }
@@ -55,13 +59,12 @@ public class Main {
 
     public static void addItem() {
         System.out.print("Please enter the grocery item: ");
-        groceryList.addGroceryIteam(scanner.nextLine());
+        groceryList.addGroceryItem(scanner.nextLine());
     }
 
     public static void modifyItem() {
         System.out.print("Current item name: ");
         String itemNo = scanner.nextLine();
-        scanner.nextLine();
         System.out.print("Enter replacement item: ");
         String newItem = scanner.nextLine();
         groceryList.modifyGroceryItem(itemNo, newItem);
@@ -73,15 +76,21 @@ public class Main {
         groceryList.removeGroceryItem(itemNo);
     }
 
-    public static void serchForItem() {
+    public static void searchForItem() {
         System.out.println("Item to search for: ");
         String searchItem = scanner.nextLine();
-        if (groceryList.findItem(searchItem) != null) {
+        if (groceryList.onFile(searchItem)) {
             System.out.println("Found" + searchItem + " in our grocery list");
         } else {
             System.out.println(searchItem + " is not in the shopping list");
         }
     }
 
+    public static void procesArrayList() {
+        ArrayList<String> newArray = new ArrayList<String>();
+        newArray.addAll(groceryList.getGroceryList());
+    }
+
+    ArrayList<String> nextArray = new ArrayList<String>(groceryList.getGroceryList());
 
 }
