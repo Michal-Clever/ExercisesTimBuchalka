@@ -44,6 +44,17 @@ public class Main {
 
     }
 
+    private static void queryContact() {
+
+    }
+
+    private static void removeContact() {
+
+    }
+
+    private static void updateContact() {
+    }
+
     private static void addNewContact() {
         System.out.println("Enter new contact name: ");
         String name = scanner.nextLine();
