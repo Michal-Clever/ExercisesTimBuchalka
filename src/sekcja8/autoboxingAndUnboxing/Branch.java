@@ -28,6 +28,17 @@ public class Branch {
 
         if (exisingCustomer != null) {
             exisingCustomer.addTransactions(amount);
+            return true;
+        }
+        return false;
+    }
+
+    private Customer findCustomer(String customerName) {
+        for (int i = 0; i < this.customers.size(); i++) {
+            Customer chekedCustomer = this.customers.get(i);
+            if (chekedCustomer.getName().equals(customerName)) {
+                return chekedCustomer;
+            }
         }
     }
 
