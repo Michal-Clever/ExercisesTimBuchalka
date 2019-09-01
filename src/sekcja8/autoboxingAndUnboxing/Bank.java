@@ -29,13 +29,23 @@ public class Bank {
         return false;
     }
 
-    public boolean addCustomerTransaction ( String branchName, String customerName, double amount){
-        Branch branch = findBranch (branchName);
-        if (branch != null){
-            return branch.addCustomerTransaction(customerName,amount);
+    public boolean addCustomerTransaction(String branchName, String customerName, double amount) {
+        Branch branch = findBranch(branchName);
+        if (branch != null) {
+            return branch.addCustomerTransaction(customerName, amount);
         }
+        return false;
     }
 
+    private Branch findBranch(String branchName) {
+        for(int i=0; i<this.branches.size(); i++) {
+            Branch checkedBranch = this.branches.get(i);
+            if(checkedBranch.getName().equals(branchName)) {
+                return checkedBranch;
+            }
+        }
+        return null;
+    }
 
 
 
