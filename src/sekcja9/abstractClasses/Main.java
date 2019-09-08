@@ -16,6 +16,16 @@ public class Main {
         penguin.eat();
         penguin.breathe();
         penguin.fly();
+        System.out.println("================");
+
+
+
+
+
+
+
+
+
 
     }
 }
