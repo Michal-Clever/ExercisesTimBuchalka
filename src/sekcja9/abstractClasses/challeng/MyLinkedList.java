@@ -1,6 +1,7 @@
 package sekcja9.abstractClasses.challeng;
 
 public class MyLinkedList implements NodeList {
+
     private ListItem root = null;
 
     public MyLinkedList(ListItem root) {
