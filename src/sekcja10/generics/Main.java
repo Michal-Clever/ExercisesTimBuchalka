@@ -26,8 +26,8 @@ public class Main {
         FootballPlayer banks = new FootballPlayer("Gordon");
         melbourne.addPlayer(banks);
 
-        Team<FootballPlayer> hawthorn= new Team<>("Hawthorn");
-        Team<FootballPlayer> fremantle= new Team<>("Fremantle");
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
 
         hawthorn.matchResult(fremantle, 1, 0);
         hawthorn.matchResult(adelaideCrows, 3, 8);
@@ -46,13 +46,16 @@ public class Main {
         System.out.println(hawthorn.compareTo(adelaideCrows));
         System.out.println(melbourne.compareTo(fremantle));
 
-        ArrayList<Team> teams;
+        ArrayList<String> teams = new ArrayList<>();
+        teams.add("damba");
+        teams.add("samba");
+        teams.add("amba");
         Collections.sort(teams);
+        for (String team : teams) {
+            System.out.println(team);
+        }
     }
 
 
-
-
-
-    }
 }
+
