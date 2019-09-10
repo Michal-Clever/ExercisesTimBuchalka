@@ -46,14 +46,7 @@ public class Main {
         System.out.println(hawthorn.compareTo(adelaideCrows));
         System.out.println(melbourne.compareTo(fremantle));
 
-        ArrayList<String> teams = new ArrayList<>();
-        teams.add("damba");
-        teams.add("samba");
-        teams.add("amba");
-        Collections.sort(teams);
-        for (String team : teams) {
-            System.out.println(team);
-        }
+
     }
 
 
