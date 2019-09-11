@@ -9,7 +9,6 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
     int lost = 0;
     int tied = 0;
 
-
     private ArrayList<T> members = new ArrayList<>();
 
     public Team(String name) {
