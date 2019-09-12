@@ -30,6 +30,7 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
         }
     }
 
+
     public int numPlayers() {
         return this.members.size();
     }
