@@ -16,6 +16,7 @@ public class Main {
         //
         // Single letter commands (N, W, S, E, Q) should still be available.
 
+
 	    Scanner scanner = new Scanner(System.in);
 
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
