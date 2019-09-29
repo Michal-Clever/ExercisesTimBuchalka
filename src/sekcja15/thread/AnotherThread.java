@@ -10,6 +10,15 @@ public class AnotherThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println(ANSI_BLUE + "2.Hello from another thread.");
+        System.out.println(ANSI_BLUE + "2.Hello from " + currentThread().getName());
+
+        try {
+            Thread.sleep(3000);
+        } catch(InterruptedException e) {
+            System.out.println(ANSI_BLUE +  "2.Another thread woke me up");
+            return;
+        }
+
+        System.out.println(ANSI_BLUE + "2.Three seconds have passed and I'm awake");
     }
 }
