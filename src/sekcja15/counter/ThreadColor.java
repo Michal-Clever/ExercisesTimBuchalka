@@ -4,6 +4,7 @@ package sekcja15.counter;
  * Created by timbuchalka on 25/05/2016.
  */
 public class ThreadColor {
+
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BLACK = "\u001B[30m";
     public static final String ANSI_RED = "\u001B[31m";
